@@ -63,9 +63,9 @@ int main(int argc, char** argv) {
   std::cout << '\n' <<"TRIALS " << uno.getNumberOfTrials() << '\n';
 
   if(uno.AddNodeToCurrent(PI/2)){
-    std::cout << "JACLAR" << '\n';
+    std::cout << "SE PUEDE AÑADIR" << '\n';
   }else{
-    std::cout << "NEIN" << '\n';
+    std::cout << "NO SE PUEDE AÑADIR" << '\n';
   }
   std::cout << '\n' <<"TRIALS " << uno.getNumberOfTrials() << '\n';
 
@@ -77,9 +77,9 @@ int main(int argc, char** argv) {
   std::cout << '\n' <<"TRIALS " << uno.getNumberOfTrials() << '\n';
 
   if(uno.AddNodeToCurrent(PI/2-1.7)){
-    std::cout << "JACLAR" << '\n';
+    std::cout << "SE PUEDE AÑADIR" << '\n';
   }else{
-    std::cout << "NEIN" << '\n';
+    std::cout << "NO SE PUEDE AÑADIR" << '\n';
   }
 
   std::cout << '\n' <<"TRIALS " << uno.getNumberOfTrials() << '\n';
@@ -89,9 +89,9 @@ int main(int argc, char** argv) {
   std::cout << '\n' <<"TRIALS " << uno.getNumberOfTrials() << '\n';
 
   if(uno.AddNodeToCurrent(PI/2-1.7)){
-    std::cout << "JACLAR" << '\n';
+    std::cout << "SE PUEDE AÑADIR" << '\n';
   }else{
-    std::cout << "NEIN" << '\n';
+    std::cout << "NO SE PUEDE AÑADIR" << '\n';
   }
 
   std::cout << '\n' <<"TRIALS " << uno.getNumberOfTrials() << '\n';
